@@ -1,19 +1,37 @@
 {
-  "name": "about-me",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "akejolin-about-me",
+  "version": "0.0.1",
+  "license": "MIT",
+  "decription": "About akejolin",
+  "author": "akejolin",
+  "keywords": [
+    "akejolin",
+    "about-me"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "snowpack dev",
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "prettier --check \"src/**/*.{ts,js}\"",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.2.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-run-script": "^2.1.1",
+    "@types/canvas-confetti": "^1.0.0",
+    "@types/snowpack-env": "^2.3.0",
+    "prettier": "^2.0.5",
+    "snowpack": "^2.9.0",
+    "typescript": "^3.9.7"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akejolin/about-me.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akejolin/about-me/issues"
-  },
-  "homepage": "https://github.com/akejolin/about-me#readme"
+  }
 }

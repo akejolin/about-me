@@ -1,7 +1,8 @@
 module.exports = {
+  extends: "@snowpack/app-scripts-react",
   mount: {
     public: "/",
-    src: "/_dist_"
+    src: "/site-modules"
   },
   plugins: [
     [
@@ -15,5 +16,9 @@ module.exports = {
   ],
   installOptions: {
     "installTypes": true
-  }
+  },
+  buildOptions: {
+    metaDir: 'metadata',
+    minify: false,
+  },
 }

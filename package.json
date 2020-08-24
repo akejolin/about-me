@@ -14,7 +14,8 @@
   "scripts": {
     "start": "snowpack dev",
     "dev": "snowpack dev",
-    "build": "snowpack build",
+    "clean": "rm -rf build",
+    "build": "npm run clean && snowpack build",
     "format": "prettier --write \"src/**/*.{ts,js}\"",
     "lint": "prettier --check \"src/**/*.{ts,js}\"",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
@@ -22,11 +23,16 @@
     "release": "npm run build && git add build && git commit -m 'Saved new version for gh-pages.' && npm run deploy"
   },
   "dependencies": {
-    "canvas-confetti": "^1.2.0"
+    "@snowpack/app-scripts-react": "^1.10.0",
+    "canvas-confetti": "^1.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@snowpack/plugin-run-script": "^2.1.1",
     "@types/canvas-confetti": "^1.0.0",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
     "@types/snowpack-env": "^2.3.0",
     "prettier": "^2.0.5",
     "snowpack": "^2.9.0",

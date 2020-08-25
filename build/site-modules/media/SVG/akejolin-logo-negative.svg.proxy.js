@@ -1,0 +1,1 @@
+export default "/site-modules/media/SVG/akejolin-logo-negative.svg";

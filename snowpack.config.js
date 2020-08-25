@@ -21,4 +21,7 @@ module.exports = {
     metaDir: 'metadata',
     minify: false,
   },
+  alias: {
+    "@src" : './src'
+  }
 }

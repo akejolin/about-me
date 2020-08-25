@@ -1,13 +1,14 @@
 import React from 'react';
-
+import FlexView from '@src/components/FlexView';
+import 'App.css'
 
 interface AppProps {}
 
 function App({}: AppProps) {
   return (
-    <div className="App">
+    <FlexView className="App">
       About me - akejolin
-    </div>
+    </FlexView>
   );
 }
 

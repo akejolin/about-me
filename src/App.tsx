@@ -35,7 +35,7 @@ function App({}: AppProps) {
     </div>
   </div>
 
-  <div className="row">
+  <div className="row" style={{marginBottom:'4rem'}}>
     <div className="two offset-by-one columns">
     <img src="%BASE_URL%/media/png/akejolin-avatar.jpg" style={{width:'100%', borderRadius: '50%'}} />
     </div>
@@ -76,10 +76,14 @@ function App({}: AppProps) {
           Leading a team is about carefully listen to the team members, putting the trust to them, their skills, their knowledge and give them space to contribute. Then you point a direction.
         </cite>
       </h6>
-      <span className="category-title">Most important when I practice SCRUM:</span><br/>
-      What i think is absolutely most important when practice SCRUM is to work very <K>close to the production</K> environment. If you are comfortable and do truly know how
-      the production environment works and how it is set up, you will be able to solve problems faster, see the solution faster, be more confidence to take quicker decisions, take more correct decisions etc. All that comes together with the result of a lower <K>Time To Market (TTM)</K> .  
-      
+      <span className="category-title">Most important when practice SCRUM:</span><br/>
+      What i think is absolutely most important when practice <K>SCRUM</K> is to work <K>close to the production</K> environment. If you are comfortable and do truly know how
+      the production environment works and how it is set up, you will be able to solve problems faster, see the solutions faster, be more confidence
+      to take quicker and correct decisions. Close to production also means you need to have <K>continuous integration</K> in place. You need to run short
+      iteration loops and have very simple and fast pipelines .
+      <br/>
+      All that comes together with the result of less <K>Time To Market (TTM)</K> and less stressful situations for the team members.
+
       <p><a href="https://www.scrumalliance.org/" title="scrumalliance.org" target="_blank"><img src="%BASE_URL%/media/png/scrum-cert.png" style={{width: '9rem'}}/></a></p>
     </article>
   </div>
@@ -89,8 +93,43 @@ function App({}: AppProps) {
     </div>
   </div>
   <div className="row" style={{marginBottom: '3rem'}}>
-    
+
     <div className="eight offset-by-two columns">
+      <div className="card">
+        <h5>Moving blocket.se to the cloud</h5>
+        <p>
+          <img src="%BASE_URL%/media/png/aws-migration.png" style={{width:'100%'}} />
+          <span className="category-title">Year: </span> 2020
+          <br/>
+          <span className="category-title">Description:</span>
+          A major project for my team during the first half year of 2020. My main participation of this project
+          was to move and deal with all <K>frontend application</K>. Before we could do the move, the existing apps needed to
+          be adjusted and <K>dockerized</K>. They needed to be configurated and migrated to fit the cloud and the <K>Kubernetes clusters</K>.
+          <br/><br/>Another part of the project was to <K>onboard</K> the teams with all the new tools and
+          features that came along with this cloud solution. But we also needed to deal with this major <K>culture change</K> this
+          migration evoked when going towards a true <K>micro service</K> architecture.
+        </p>
+      </div>
+
+      <div className="card">
+        <h5>Decouple the frontend web layer from the backend for blocket.se</h5>
+        <p>
+          <img src="%BASE_URL%/media/png/decouple-fe-be.png" style={{width:'100%'}} />
+          <span className="category-title">Year: </span> 2019
+          <br/>
+          <span className="category-title">Description:</span>
+          The main target and goal with this project was to decouple the frontend web layer
+          and set it free from the backend. The idea was that the frontend web layer should
+          completely get its data via <K>REST APIs</K>, in the same way the native apps did.
+          To do that we needed to rebuild the frontend layer from scratch and turn it
+          from being based on <K>C-code</K> to be based on <K>Node</K> and <K>javascript</K>. We also wanted to merge
+          the mobile web app and the desktop app to be one with features such <K>responsive design</K>.
+
+          We built the web app with framework such <K>react</K>, <K>redux</K> and <K>webpack</K> etc.
+        </p>
+      </div>
+
+
       <div className="card">
         <h5>Asteroids Game</h5>
         <p>
@@ -125,13 +164,16 @@ function App({}: AppProps) {
           to desired language (arabic, persian, english, swedish) in real time, supported by <K>Bing Translator</K>.
         </p>
       </div>
-
     </div>
   </div>
   <div className="row">
     <div id="footer" className="column">
       <hr className="color-first no-margin"/>
-        akejolin © 2020. <a href="https://www.linkedin.com/in/jonaslindebros/" target="_blank">LinkedIn</a>, <a href="https://github.com/akejolin" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/jonaslindebros/" target="_blank"><img src="%BASE_URL%/media/SVG/linkedin.svg" style={{width: '2rem'}} /></a>, <a href="https://github.com/akejolin" target="_blank"><img src="%BASE_URL%/media/SVG/github.svg" style={{width: '2rem'}} /></a> <a href="https://github.com/jonaslindebros" target="_blank"><img src="%BASE_URL%/media/SVG/github.svg" style={{width: '2rem'}} /></a>
+      <a href="https://stackoverflow.com/users/10405406/j-lindebro" target="_blank"><img src="%BASE_URL%/media/SVG/stack-overflow.svg" style={{width: '2rem'}} /></a>
+      <a href="https://www.npmjs.com/~akejolin" target="_blank"><img src="%BASE_URL%/media/SVG/npm.svg" style={{width: '4rem'}} /></a>
+      <br/><br/>
+      akejolin © 2020.
     </div>
   </div>
 </div>

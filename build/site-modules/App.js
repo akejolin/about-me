@@ -48,15 +48,15 @@ function App({}) {
     className: "eight columns"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "color-first"
-  }, "I've been around in the business for quite some time"), /*#__PURE__*/React.createElement("p", null, "From the beginning, self-learned. I started my proffessional web engineer career ", /*#__PURE__*/React.createElement(K, null, "1999"), " and have since then, worked in many different kind of sets. I have run my own business, worked in many different kind of teams, different kind of companies, both small and big. I have had different roles. I have been a ", /*#__PURE__*/React.createElement(K, null, "Web Engineer"), ", ", /*#__PURE__*/React.createElement(K, null, "Engineering Manager"), " and today i work as a ", /*#__PURE__*/React.createElement(K, null, "Web Architect Engineer"), " at one one of the biggest websites in Sweden.", /*#__PURE__*/React.createElement("br", null), "I have many times contribute to ", /*#__PURE__*/React.createElement(K, null, "open source"), " projects. I have seen new technologies raise, I have seen the fall. I have seen new fancy frameworks being replaced by another. But one thing that has been persistent during these years, is my passion for the web.", /*#__PURE__*/React.createElement("br", null)))), /*#__PURE__*/React.createElement("div", {
+  }, "I've been around in the business for quite some time now"), /*#__PURE__*/React.createElement("p", null, "From the beginning, self-learned. I started my proffessional web engineer career ", /*#__PURE__*/React.createElement(K, null, "1999"), " and have since then, worked in many different kind of sets. I have run my own business, worked in many different kind of teams, different kind of companies, both small and big. I have had different roles. I have been a ", /*#__PURE__*/React.createElement(K, null, "Web Engineer"), ", ", /*#__PURE__*/React.createElement(K, null, "Engineering Manager"), " and today i work as a ", /*#__PURE__*/React.createElement(K, null, "Web Architect Engineer"), " at one one of the biggest websites in Sweden.", /*#__PURE__*/React.createElement("br", null), "I have many times contributed to ", /*#__PURE__*/React.createElement(K, null, "open source"), " projects. I have seen new technologies raise, but I have also seen many fall. I have seen new fancy frameworks being replaced by another. But one thing that has been persistent during these years, is my passion for the web.", /*#__PURE__*/React.createElement("br", null)))), /*#__PURE__*/React.createElement("div", {
     className: "row"
   }, /*#__PURE__*/React.createElement("div", {
     className: "one-half column"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "color-first"
-  }, "Teqniques & langs "), /*#__PURE__*/React.createElement("p", {
+  }, "Techniques & languages"), /*#__PURE__*/React.createElement("p", {
     className: "category-title"
-  }, "Tecnical domains"), /*#__PURE__*/React.createElement("p", {
+  }, "Technical domains"), /*#__PURE__*/React.createElement("p", {
     className: "tags-container"
   }, domains.map(item => /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("span", {
     className: "tag-label"
@@ -72,7 +72,7 @@ function App({}) {
     className: "color-first"
   }, "Leadership "), /*#__PURE__*/React.createElement("p", null, "I have many years of experience of engineering management, leadership, mentorship. I have had the opportunity to build both small and big teams. I have had wage responsibility, been scrum master, run and led agile software development."), /*#__PURE__*/React.createElement("h6", null, /*#__PURE__*/React.createElement("cite", null, "Leading a team is about carefully listen to the team members, putting the trust to them, their skills, their knowledge and give them space to contribute. Then you point a direction.")), /*#__PURE__*/React.createElement("span", {
     className: "category-title"
-  }, "Most important when I practice SCRUM:"), /*#__PURE__*/React.createElement("br", null), "What i think is absolutely most important when practice SCRUM is to work very ", /*#__PURE__*/React.createElement(K, null, "close to the production"), " environment. If you are comfortable and do truly know how the production environment works and how it is set up, you will be able to solve problems fast, be more confidence to take quicker decisions, take more correct decisions etc. All that comes together with the result of a lower ", /*#__PURE__*/React.createElement(K, null, "Time To Market (TTM)"), " .", /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
+  }, "Most important when I practice SCRUM:"), /*#__PURE__*/React.createElement("br", null), "What i think is absolutely most important when practice SCRUM is to work very ", /*#__PURE__*/React.createElement(K, null, "close to the production"), " environment. If you are comfortable and do truly know how the production environment works and how it is set up, you will be able to solve problems faster, see the solution faster, be more confidence to take quicker decisions, take more correct decisions etc. All that comes together with the result of a lower ", /*#__PURE__*/React.createElement(K, null, "Time To Market (TTM)"), " .", /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
     href: "https://www.scrumalliance.org/",
     title: "scrumalliance.org",
     target: "_blank"

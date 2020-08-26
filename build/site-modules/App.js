@@ -1,9 +1,6 @@
 import React from '../web_modules/react.js';
 import K from './components/KeyWord/index.js';
 import './styles.css.proxy.js';
-import photoOfMe from './media/png/akejolin-avatar.jpg.proxy.js';
-import ImageWelocomeApp from './media/png/welcome-app.png.proxy.js';
-import ImageAsteroids from './media/png/asteroids.png.proxy.js';
 import { primary as skills, domains } from './data/skills.js';
 
 function App({}) {
@@ -42,7 +39,7 @@ function App({}) {
   }, /*#__PURE__*/React.createElement("div", {
     className: "two offset-by-one columns"
   }, /*#__PURE__*/React.createElement("img", {
-    src: photoOfMe,
+    src: "/about-me/media/png/akejolin-avatar.jpg",
     style: {
       width: '100%',
       borderRadius: '50%'
@@ -88,7 +85,7 @@ function App({}) {
     href: "https://www.lindebros.com/asteroids",
     target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
-    src: ImageAsteroids,
+    src: "/about-me/media/png/asteroids.png",
     style: {
       width: '100%'
     }
@@ -99,7 +96,7 @@ function App({}) {
   }, "Description:"), "I wanted to build a game to inspire my kids to start coding and during a hackday I did the classical game asteroids. The game is based on the ", /*#__PURE__*/React.createElement(K, null, "canvas"), " element with frame based animation. I used ", /*#__PURE__*/React.createElement(K, null, "React"), " to structure the app and added ", /*#__PURE__*/React.createElement(K, null, "Redux"), " to provide data across the application. The sounds are recorded by me.", /*#__PURE__*/React.createElement("br", null), "Later on I ", /*#__PURE__*/React.createElement(K, null, "dockerized"), " the app and let the it be served via ", /*#__PURE__*/React.createElement(K, null, "http2"), " protocol. Then the bundling became more unnecessary and i therefore converted the app to be based on ", /*#__PURE__*/React.createElement(K, null, "snowpack"), ".")), /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("h5", null, "Startup of Welcome App"), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("img", {
-    src: ImageWelocomeApp,
+    src: "/about-me/media/png/welcome-app.png",
     style: {
       width: '100%'
     }

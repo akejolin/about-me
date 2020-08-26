@@ -29,6 +29,12 @@ body {
   background-color: #4B4747;
 }
 
+.highlight-box {
+  background-color: #F8C3B3;
+  padding: .6em;
+  margin: .6em .0em;
+}
+
 .color-first {
   color: #654A4E;
 }

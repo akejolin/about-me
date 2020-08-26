@@ -60,13 +60,28 @@ function App({}) {
     className: "tags-container"
   }, domains.map(item => /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("span", {
     className: "tag-label"
-  }, item), " "))), /*#__PURE__*/React.createElement("p", {
+  }, item), " "))), /*#__PURE__*/React.createElement("div", {
+    className: "highlight-box"
+  }, /*#__PURE__*/React.createElement("span", {
     className: "category-title"
-  }, "I have worked with:"), /*#__PURE__*/React.createElement("p", null, skills.map(item => /*#__PURE__*/React.createElement(React.Fragment, null, item, ", ")))), /*#__PURE__*/React.createElement("div", {
+  }, "Highlighted technology this year:"), " Snowpack, Es-modules, Docker, Kubernetes, Travis."), /*#__PURE__*/React.createElement("p", {
+    className: "category-title"
+  }, "Among many, I have worked with:"), /*#__PURE__*/React.createElement("p", null, skills.map(item => /*#__PURE__*/React.createElement(React.Fragment, null, item, ", ")))), /*#__PURE__*/React.createElement("article", {
     className: "one-half column"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "color-first"
-  }, "Leadership "), /*#__PURE__*/React.createElement("p", null, "I have many years of experience of engineering management, leadership, mentorship. I have had the opportunity to build both small and big teams. I have had wage responsibility, been scrum master, run and led agile software development."), /*#__PURE__*/React.createElement("h6", null, /*#__PURE__*/React.createElement("cite", null, "Leading a team is about carefully listen to the team members, putting the trust to them, their skills, their knowledge and give them space to contribute. Then you point a direction.")))), /*#__PURE__*/React.createElement("div", {
+  }, "Leadership "), /*#__PURE__*/React.createElement("p", null, "I have many years of experience of engineering management, leadership, mentorship. I have had the opportunity to build both small and big teams. I have had wage responsibility, been scrum master, run and led agile software development."), /*#__PURE__*/React.createElement("h6", null, /*#__PURE__*/React.createElement("cite", null, "Leading a team is about carefully listen to the team members, putting the trust to them, their skills, their knowledge and give them space to contribute. Then you point a direction.")), /*#__PURE__*/React.createElement("span", {
+    className: "category-title"
+  }, "Most important when I practice SCRUM:"), /*#__PURE__*/React.createElement("br", null), "What i think is absolutely most important when practice SCRUM is to work very ", /*#__PURE__*/React.createElement(K, null, "close to the production"), " environment. If you are comfortable and do truly know how the production environment works and how it is set up, you will be able to solve problems fast, be more confidence to take quicker decisions, take more correct decisions etc. All that comes together with the result of a lower ", /*#__PURE__*/React.createElement(K, null, "Time To Market (TTM)"), " .", /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
+    href: "https://www.scrumalliance.org/",
+    title: "scrumalliance.org",
+    target: "_blank"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "/about-me/media/png/scrum-cert.png",
+    style: {
+      width: '9rem'
+    }
+  }))))), /*#__PURE__*/React.createElement("div", {
     className: "row"
   }, /*#__PURE__*/React.createElement("div", {
     className: "eight offset-by-two columns"

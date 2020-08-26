@@ -20,7 +20,7 @@ function App({}: AppProps) {
       <h5 className="color-first" style={{fontSize:'2.5rem', marginBottom: '1.2rem', marginTop: '.8rem'}}>About me</h5>
     </div>
   </div>
-  
+
   <div className="row">
     <div className="column">
       <hr className="color-first no-margin"/>
@@ -57,10 +57,17 @@ function App({}: AppProps) {
       <h3 className="color-first" >Teqniques & langs </h3>
       <p className="category-title">Tecnical domains</p>
       <p className="tags-container">{domains.map(item => <React.Fragment><span className="tag-label">{item}</span> </React.Fragment>)}</p>
-      <p className="category-title">I have worked with:</p>
+      <div className="highlight-box">
+      
+      <span className="category-title">Highlighted technology this year:
+
+      </span> Snowpack, Es-modules, Docker, Kubernetes, Travis.
+      
+      </div>
+      <p className="category-title">Among many, I have worked with:</p>
       <p>{skills.map(item => <React.Fragment>{item}, </React.Fragment>)}</p>
     </div>
-    <div className="one-half column">
+    <article className="one-half column">
       <h3 className="color-first">Leadership </h3>
       <p>
         I have many years of experience of engineering management, leadership, mentorship. I have had the opportunity to build both small and big teams. I have had wage responsibility, been scrum master, run and led agile software development. 
@@ -70,7 +77,12 @@ function App({}: AppProps) {
           Leading a team is about carefully listen to the team members, putting the trust to them, their skills, their knowledge and give them space to contribute. Then you point a direction.
         </cite>
       </h6>
-    </div>
+      <span className="category-title">Most important when I practice SCRUM:</span><br/>
+      What i think is absolutely most important when practice SCRUM is to work very <K>close to the production</K> environment. If you are comfortable and do truly know how
+      the production environment works and how it is set up, you will be able to solve problems fast, be more confidence to take quicker decisions, take more correct decisions etc. All that comes together with the result of a lower <K>Time To Market (TTM)</K> .  
+      
+      <p><a href="https://www.scrumalliance.org/" title="scrumalliance.org" target="_blank"><img src="%BASE_URL%/media/png/scrum-cert.png" style={{width: '9rem'}}/></a></p>
+    </article>
   </div>
   <div className="row">
     <div className="eight offset-by-two columns">

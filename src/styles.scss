@@ -26,6 +26,11 @@ body {
 .bg-negative {
   background-color: $color-second;
 }
+.highlight-box {
+  background-color: $color-light-pink;
+  padding: .6em;
+  margin: .6em .0em;
+}
 .color-first {
   color: $color-first;
 }

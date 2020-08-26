@@ -2,9 +2,7 @@ import React from 'react';
 import FlexView from './components/FlexView';
 import K from './components/KeyWord';
 import './styles.scss'
-import photoOfMe from './media/png/akejolin-avatar.jpg'
-import ImageWelocomeApp from './media/png/welcome-app.png'
-import ImageAsteroids from './media/png/asteroids.png'
+
 import {
   primary as skills,
   domains,
@@ -36,9 +34,10 @@ function App({}: AppProps) {
       */}
     </div>
   </div>
+
   <div className="row">
     <div className="two offset-by-one columns">
-    <img src={photoOfMe} style={{width:'100%', borderRadius: '50%'}} />
+    <img src="%BASE_URL%/media/png/akejolin-avatar.jpg" style={{width:'100%', borderRadius: '50%'}} />
     </div>
     <article className="eight columns">
       <h3 className="color-first">I've been around in the business for quite some time</h3>
@@ -85,7 +84,7 @@ function App({}: AppProps) {
         <h5>Asteroids Game</h5>
         <p>
           <a href="https://www.lindebros.com/asteroids" target="_blank">
-            <img src={ImageAsteroids} style={{width:'100%'}} />
+            <img src="%BASE_URL%/media/png/asteroids.png" style={{width:'100%'}} />
           </a>
           <span className="category-title">Year: </span> 2018 (Updated 2020)
           <br/>
@@ -103,7 +102,7 @@ function App({}: AppProps) {
       <div className="card">
         <h5>Startup of Welcome App</h5>
         <p>
-          <img src={ImageWelocomeApp} style={{width:'100%'}} />
+          <img src="%BASE_URL%/media/png/welcome-app.png" style={{width:'100%'}} />
           <span className="category-title">Year: </span> 2015
           <br/>
           <span className="category-title">Description:</span>

@@ -1,0 +1,11 @@
+@import '../../scss-base/colors';
+
+.key-word {
+    background-color: $color-label;
+    font-size: 0.9em;
+    color: $color-first;
+    padding: 1px 3px 2px 3px;
+    margin: 0px;
+    white-space: nowrap;
+    border-radius: .4rem;
+}

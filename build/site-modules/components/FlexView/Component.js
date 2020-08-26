@@ -3,7 +3,9 @@ import './styles.css.proxy.js';
 
 const FlexView = props => {
   const styles = {
-    default: {} // Default has been moved to scss
+    default: props.row ? {
+      flexDirection: 'row'
+    } : {} // Default has been moved to scss
 
   };
   let outputStyles = { ...styles.default,
@@ -37,7 +39,7 @@ const FlexView = props => {
   let setProps = { ...props
   };
   setProps.style = outputStyles;
-  setProps.className = "flex-view";
+  setProps.className = `flex-view${props.className ? ' ' + props.className : ''}`;
   delete setProps.row;
   delete setProps.tagName;
   return /*#__PURE__*/React.createElement(TagName, setProps, props.children);

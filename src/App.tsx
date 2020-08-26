@@ -2,9 +2,9 @@ import React from 'react';
 import FlexView from './components/FlexView';
 import K from './components/KeyWord';
 import './styles.scss'
-import photoOfMe from '@src/media/png/akejolin-avatar.jpg'
-import ImageWelocomeApp from '@src/media/png/welcome-app.png'
-import ImageAsteroids from '@src/media/png/asteroids.png'
+import photoOfMe from './media/png/akejolin-avatar.jpg'
+import ImageWelocomeApp from './media/png/welcome-app.png'
+import ImageAsteroids from './media/png/asteroids.png'
 import {
   primary as skills,
   domains,
@@ -82,7 +82,7 @@ function App({}: AppProps) {
     
     <div className="eight offset-by-two columns">
       <div className="card">
-        <h5>Astetoids Game</h5>
+        <h5>Asteroids Game</h5>
         <p>
           <a href="https://www.lindebros.com/asteroids" target="_blank">
             <img src={ImageAsteroids} style={{width:'100%'}} />

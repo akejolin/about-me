@@ -11,7 +11,7 @@ module.exports = {
     ],
     "snowpack-plugin-sass",
     ["snowpack-plugin-baseurl-handler", {
-      exts: [".html", ".js", ".jsx", ".css"],
+      exts: [".html", ".js", ".jsx", ".css", ".scss"],
       baseUrl: '/about-me',
     }]
   ],

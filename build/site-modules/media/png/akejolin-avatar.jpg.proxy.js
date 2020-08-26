@@ -1,0 +1,1 @@
+export default "/site-modules/media/png/akejolin-avatar.jpg";

@@ -1,0 +1,14 @@
+.key-word {
+  background-color: #ffe7e0;
+  color: #654A4E;
+  font-size: 0.9em;
+  padding: 1px 3px 2px 3px;
+  margin: 0px;
+  white-space: nowrap;
+  border-radius: .4rem;
+}
+
+article .key-word {
+  background-color: #F8C3B3;
+  color: #654A4E;
+}

@@ -9,6 +9,7 @@ module.exports = {
       "@snowpack/plugin-run-script",
       { "cmd": "tsc --noEmit", "watch": "$1 --watch" }
     ],
+    "snowpack-plugin-sass",
     ["snowpack-plugin-baseurl-handler", {
       exts: [".html", ".js", ".jsx", ".css"],
       baseUrl: '/about-me',

@@ -40,22 +40,21 @@ function App({}: AppProps) {
     <img src="%BASE_URL%/media/png/akejolin-avatar.jpg" style={{width:'100%', borderRadius: '50%'}} />
     </div>
     <article className="eight columns">
-      <h3 className="color-first">I've been around in the business for quite some time</h3>
+      <h3 className="color-first">I've been around in the business for quite some time now</h3>
       <p>
         From the beginning, self-learned. I started my proffessional web engineer career <K>1999</K> and have since then,
         worked in many different kind of sets. I have run my own business, worked in many different kind of teams, different kind of companies, both small and big.
         I have had different roles. I have been a <K>Web Engineer</K>, <K>Engineering Manager</K> and today i work as a <K>Web Architect Engineer</K> at one one of the biggest websites in Sweden.
         <br/>
-        I have many times contribute to <K>open source</K> projects. I have seen new technologies raise, I have seen the fall. I have seen new fancy frameworks being replaced by another. But one thing that has been persistent during these years, is my passion for the web.
+        I have many times contributed to <K>open source</K> projects. I have seen new technologies raise, but I have also seen many fall. I have seen new fancy frameworks being replaced by another. But one thing that has been persistent during these years, is my passion for the web.
         <br/>
-        
       </p>
     </article>
   </div>
   <div className="row">
     <div className="one-half column">
-      <h3 className="color-first" >Teqniques & langs </h3>
-      <p className="category-title">Tecnical domains</p>
+      <h3 className="color-first" >Techniques & languages</h3>
+      <p className="category-title">Technical domains</p>
       <p className="tags-container">{domains.map(item => <React.Fragment><span className="tag-label">{item}</span> </React.Fragment>)}</p>
       <div className="highlight-box">
       
@@ -79,7 +78,7 @@ function App({}: AppProps) {
       </h6>
       <span className="category-title">Most important when I practice SCRUM:</span><br/>
       What i think is absolutely most important when practice SCRUM is to work very <K>close to the production</K> environment. If you are comfortable and do truly know how
-      the production environment works and how it is set up, you will be able to solve problems fast, be more confidence to take quicker decisions, take more correct decisions etc. All that comes together with the result of a lower <K>Time To Market (TTM)</K> .  
+      the production environment works and how it is set up, you will be able to solve problems faster, see the solution faster, be more confidence to take quicker decisions, take more correct decisions etc. All that comes together with the result of a lower <K>Time To Market (TTM)</K> .  
       
       <p><a href="https://www.scrumalliance.org/" title="scrumalliance.org" target="_blank"><img src="%BASE_URL%/media/png/scrum-cert.png" style={{width: '9rem'}}/></a></p>
     </article>

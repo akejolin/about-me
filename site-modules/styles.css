@@ -135,6 +135,10 @@ nav.main a:hover {
   margin: 1rem 0rem 1rem 0rem;
 }
 
+#footer a {
+  margin: 0rem 1rem;
+}
+
 .std-margins {
   margin: 10% 50%;
   min-width: 50%;

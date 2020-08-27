@@ -42,7 +42,7 @@ function App({}: AppProps) {
     <article className="eight columns">
       <h3 className="color-first">I've been around in the business for quite some time now</h3>
       <p>
-        From the beginning, self-learned. I started my proffessional web engineer career <K>1999</K> and have since then,
+        From the beginning, self-learned. I started my professional web engineer career <K>1999</K> and have since then,
         worked in many different kind of sets. I have run my own business, worked in many different kind of teams, different kind of companies, both small and big.
         I have had different roles. I have been a <K>Web Engineer</K>, <K>Engineering Manager</K> and today i work as a <K>Web Architect Engineer</K> at one one of the biggest websites in Sweden.
         <br/>
@@ -169,9 +169,11 @@ function App({}: AppProps) {
   <div className="row">
     <div id="footer" className="column">
       <hr className="color-first no-margin"/>
-      <a href="https://www.linkedin.com/in/jonaslindebros/" target="_blank"><img src="%BASE_URL%/media/SVG/linkedin.svg" style={{width: '2rem'}} /></a>, <a href="https://github.com/akejolin" target="_blank"><img src="%BASE_URL%/media/SVG/github.svg" style={{width: '2rem'}} /></a> <a href="https://github.com/jonaslindebros" target="_blank"><img src="%BASE_URL%/media/SVG/github.svg" style={{width: '2rem'}} /></a>
+      <a href="https://www.linkedin.com/in/jonaslindebros/" target="_blank"><img src="%BASE_URL%/media/SVG/linkedin.svg" style={{width: '2rem'}} /></a>
+      <a href="https://github.com/akejolin" target="_blank"><img src="%BASE_URL%/media/SVG/github.svg" style={{width: '2rem'}} /></a> <a href="https://github.com/jonaslindebros" target="_blank"><img src="%BASE_URL%/media/SVG/github.svg" style={{width: '2rem'}} /></a>
       <a href="https://stackoverflow.com/users/10405406/j-lindebro" target="_blank"><img src="%BASE_URL%/media/SVG/stack-overflow.svg" style={{width: '2rem'}} /></a>
       <a href="https://www.npmjs.com/~akejolin" target="_blank"><img src="%BASE_URL%/media/SVG/npm.svg" style={{width: '4rem'}} /></a>
+      <a href="https://www.npmjs.com/~jlindebro" target="_blank"><img src="%BASE_URL%/media/SVG/npm.svg" style={{width: '4rem'}} /></a>
       <br/><br/>
       akejolin © 2020.
     </div>

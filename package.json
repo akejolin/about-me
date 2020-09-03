@@ -29,6 +29,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
     "@snowpack/plugin-run-script": "^2.1.1",
     "@types/canvas-confetti": "^1.0.0",
     "@types/react": "^16.9.46",
@@ -37,6 +38,7 @@
     "prettier": "^2.0.5",
     "snowpack": "^2.9.0",
     "snowpack-plugin-baseurl-handler": "0.0.3",
+    "snowpack-plugin-content-hash": "^1.0.1",
     "snowpack-plugin-sass": "^1.0.0",
     "typescript": "^3.9.7"
   },

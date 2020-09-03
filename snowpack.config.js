@@ -10,6 +10,9 @@ module.exports = {
       { "cmd": "tsc --noEmit", "watch": "$1 --watch" }
     ],
     "snowpack-plugin-sass",
+    ["snowpack-plugin-content-hash", {
+      exts: [".js", ".jsx"],
+    }],
     ["snowpack-plugin-baseurl-handler", {
       exts: [".html", ".js", ".jsx", ".css", ".scss"],
       baseUrl: '/about-me',

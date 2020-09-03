@@ -1,7 +1,7 @@
-import React from '../web_modules/react.js';
-import K from './components/KeyWord/index.js';
-import './styles.css.proxy.js';
-import { primary as skills, domains } from './data/skills.js';
+import React from '../web_modules/react.js?hash=837e9c8767c0c5bb1a63ca951413ac6b';
+import K from './components/KeyWord/index.js?hash=3d1b56997bc431e609bfefc849d4fd6a';
+import './styles.css.proxy.js?hash=c51c082d41faae132cfbd7940aca4761';
+import { primary as skills, domains } from './data/skills.js?hash=db8cc685b321b42325660076a0e01513';
 
 function App({}) {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
@@ -51,7 +51,7 @@ function App({}) {
     className: "eight columns"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "color-first"
-  }, "I've been around in the business for quite some time now"), /*#__PURE__*/React.createElement("p", null, "From the beginning, self-learned. I started my proffessional web engineer career ", /*#__PURE__*/React.createElement(K, null, "1999"), " and have since then, worked in many different kind of sets. I have run my own business, worked in many different kind of teams, different kind of companies, both small and big. I have had different roles. I have been a ", /*#__PURE__*/React.createElement(K, null, "Web Engineer"), ", ", /*#__PURE__*/React.createElement(K, null, "Engineering Manager"), " and today i work as a ", /*#__PURE__*/React.createElement(K, null, "Web Architect Engineer"), " at one one of the biggest websites in Sweden.", /*#__PURE__*/React.createElement("br", null), "I have many times contributed to ", /*#__PURE__*/React.createElement(K, null, "open source"), " projects. I have seen new technologies raise, but I have also seen many fall. I have seen new fancy frameworks being replaced by another. But one thing that has been persistent during these years, is my passion for the web.", /*#__PURE__*/React.createElement("br", null)))), /*#__PURE__*/React.createElement("div", {
+  }, "I've been around in the business for quite some time now"), /*#__PURE__*/React.createElement("p", null, "From the beginning, self-learned. I started my professional web engineer career ", /*#__PURE__*/React.createElement(K, null, "1999"), " and have since then, worked in many different kind of sets. I have run my own business, worked in many different kind of teams, different kind of companies, both small and big. I have had different roles. I have been a ", /*#__PURE__*/React.createElement(K, null, "Web Engineer"), ", ", /*#__PURE__*/React.createElement(K, null, "Engineering Manager"), " and today i work as a ", /*#__PURE__*/React.createElement(K, null, "Web Architect Engineer"), " at one one of the biggest websites in Sweden.", /*#__PURE__*/React.createElement("br", null), "I have many times contributed to ", /*#__PURE__*/React.createElement(K, null, "open source"), " projects. I have seen new technologies raise, but I have also seen many fall. I have seen new fancy frameworks being replaced by another. But one thing that has been persistent during these years, is my passion for the web.", /*#__PURE__*/React.createElement("br", null)))), /*#__PURE__*/React.createElement("div", {
     className: "row"
   }, /*#__PURE__*/React.createElement("div", {
     className: "one-half column"
@@ -159,7 +159,7 @@ function App({}) {
     style: {
       width: '2rem'
     }
-  })), ", ", /*#__PURE__*/React.createElement("a", {
+  })), /*#__PURE__*/React.createElement("a", {
     href: "https://github.com/akejolin",
     target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
@@ -185,6 +185,14 @@ function App({}) {
     }
   })), /*#__PURE__*/React.createElement("a", {
     href: "https://www.npmjs.com/~akejolin",
+    target: "_blank"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "/about-me/media/SVG/npm.svg",
+    style: {
+      width: '4rem'
+    }
+  })), /*#__PURE__*/React.createElement("a", {
+    href: "https://www.npmjs.com/~jlindebro",
     target: "_blank"
   }, /*#__PURE__*/React.createElement("img", {
     src: "/about-me/media/SVG/npm.svg",

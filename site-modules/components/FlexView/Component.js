@@ -1,5 +1,11 @@
-import React from '../../../web_modules/react.js';
-import './styles.css.proxy.js';
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+import React from '../../../web_modules/react.js?hash=837e9c8767c0c5bb1a63ca951413ac6b';
+import './styles.css.proxy.js?hash=5dcdf6c14b5b43c27ab427f77d9262cd';
 
 const FlexView = props => {
   const styles = {
@@ -8,36 +14,32 @@ const FlexView = props => {
     } : {} // Default has been moved to scss
 
   };
-  let outputStyles = { ...styles.default,
-    ...props.style
-  };
+
+  let outputStyles = _objectSpread(_objectSpread({}, styles.default), props.style);
 
   if (outputStyles.width === '100%') {
-    outputStyles = { ...outputStyles,
-      ...{
-        paddingLeft: 0,
-        paddingRight: 0,
-        marginLeft: 0,
-        marginRight: 0
-      }
-    };
+    outputStyles = _objectSpread(_objectSpread({}, outputStyles), {
+      paddingLeft: 0,
+      paddingRight: 0,
+      marginLeft: 0,
+      marginRight: 0
+    });
   }
 
   if (outputStyles.height === '100%') {
-    outputStyles = { ...outputStyles,
-      ...{
-        paddingTop: 0,
-        paddingBottom: 0,
-        marginTop: 0,
-        marginBottom: 0
-      }
-    };
+    outputStyles = _objectSpread(_objectSpread({}, outputStyles), {
+      paddingTop: 0,
+      paddingBottom: 0,
+      marginTop: 0,
+      marginBottom: 0
+    });
   }
 
   ;
   const TagName = props.tagName;
-  let setProps = { ...props
-  };
+
+  let setProps = _objectSpread({}, props);
+
   setProps.style = outputStyles;
   setProps.className = `flex-view${props.className ? ' ' + props.className : ''}`;
   delete setProps.row;

@@ -4,52 +4,30 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-import React from '../../../web_modules/react.js?hash=837e9c8767c0c5bb1a63ca951413ac6b';
-import './styles.css.proxy.js?hash=5dcdf6c14b5b43c27ab427f77d9262cd';
+import React from '../../../web_modules/react-837e9c8767c0c5bb1a63ca951413ac6b.js';
+import './styles.css.proxy-4ac2b63226ee8edb45128926f4925b4f.js';
 
-const FlexView = props => {
+const KeyWord = props => {
   const styles = {
-    default: props.row ? {
-      flexDirection: 'row'
-    } : {} // Default has been moved to scss
-
+    default: {}
   };
 
   let outputStyles = _objectSpread(_objectSpread({}, styles.default), props.style);
 
-  if (outputStyles.width === '100%') {
-    outputStyles = _objectSpread(_objectSpread({}, outputStyles), {
-      paddingLeft: 0,
-      paddingRight: 0,
-      marginLeft: 0,
-      marginRight: 0
-    });
-  }
-
-  if (outputStyles.height === '100%') {
-    outputStyles = _objectSpread(_objectSpread({}, outputStyles), {
-      paddingTop: 0,
-      paddingBottom: 0,
-      marginTop: 0,
-      marginBottom: 0
-    });
-  }
-
-  ;
   const TagName = props.tagName;
 
   let setProps = _objectSpread({}, props);
 
   setProps.style = outputStyles;
-  setProps.className = `flex-view${props.className ? ' ' + props.className : ''}`;
+  setProps.className = `key-word${props.className ? ' ' + props.className : ''}`;
   delete setProps.row;
   delete setProps.tagName;
   return /*#__PURE__*/React.createElement(TagName, setProps, props.children);
 };
 
-FlexView.defaultProps = {
+KeyWord.defaultProps = {
   style: {},
   row: false,
-  tagName: 'div'
+  tagName: 'span'
 };
-export default FlexView;
+export default KeyWord;

@@ -1,7 +1,7 @@
-import React from '../web_modules/react.js?hash=837e9c8767c0c5bb1a63ca951413ac6b';
-import K from './components/KeyWord/index.js?hash=3d1b56997bc431e609bfefc849d4fd6a';
-import './styles.css.proxy.js?hash=c51c082d41faae132cfbd7940aca4761';
-import { primary as skills, domains } from './data/skills.js?hash=db8cc685b321b42325660076a0e01513';
+import React from '../web_modules/react-837e9c8767c0c5bb1a63ca951413ac6b.js';
+import K from './components/KeyWord/index-3d1b56997bc431e609bfefc849d4fd6a.js';
+import './styles.css.proxy-c51c082d41faae132cfbd7940aca4761.js';
+import { primary as skills, domains } from './data/skills-db8cc685b321b42325660076a0e01513.js';
 
 function App({}) {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {

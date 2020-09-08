@@ -95,6 +95,7 @@ function App({}: AppProps) {
   <div className="row" style={{marginBottom: '3rem'}}>
 
     <div className="eight offset-by-two columns">
+
       <div className="card">
         <h5>Moving blocket.se to the cloud</h5>
         <p>
@@ -128,7 +129,24 @@ function App({}: AppProps) {
           We built the web app with framework such <K>react</K>, <K>redux</K> and <K>webpack</K> etc.
         </p>
       </div>
+      <div className="card">
+        <h5>Canvas screen saver</h5>
+        <p>
+          <a href="https://akejolin.github.io/canvas-screen-saver/" target="_blank">
+            <img src="%BASE_URL%/media/png/canvas-screen-saver.png" style={{width:'100%'}} />
+          </a>
+          <span className="category-title">Year: </span> 2017 (updated 2020)
+          <br/>
+          <span className="category-title">Description:</span>
+          Played around with the canvas element and made a screen saver. The project is not fully done
+          and the application is not working 100%.
+          But even though you may get a sense and the idea of the animation.
 
+          <br/><br/>
+          View a demo at <a href="https://akejolin.github.io/canvas-screen-saver/" target="_blank">akejolin.github.io/canvas-screen-saver/</a>
+
+        </p>
+      </div>
 
       <div className="card">
         <h5>Asteroids Game</h5>
@@ -145,7 +163,10 @@ function App({}: AppProps) {
           added <K>Redux</K> to provide data across the application. The sounds are recorded by me.
           <br/>
           Later on I <K>dockerized</K> the app and let the it be served via <K>http2</K> protocol.
-          Then the bundling became more unnecessary and i therefore converted the app to be based on <K>snowpack</K>.  
+          Then the bundling became more unnecessary and i therefore converted the app to be based on <K>snowpack</K>.
+          <br/><br/>
+          
+          Please, have a try at <a href="https://www.lindebros.com/asteroids" target="_blank">lindebros.com/asteroids</a>
         </p>
       </div>
 

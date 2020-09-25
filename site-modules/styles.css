@@ -33,6 +33,7 @@ body {
   background-color: #F8C3B3;
   padding: .6em;
   margin: .6em .0em;
+  border-radius: .4rem;
 }
 
 .color-first {
@@ -151,6 +152,35 @@ nav.main a:hover {
 section {
   height: 80vh;
   flex-grow: 0;
+}
+
+.focusAreasBox {
+  background-color: #654A4E;
+  color: white;
+  padding: 16px;
+  border-radius: .4rem;
+}
+
+.focusAreasBox ul {
+  margin-top: 26px;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.focusAreasBox ul li {
+  margin-left: 0px;
+  font-size: 2rem;
+}
+
+.focusAreasBox .titleBox {
+  border-bottom: 1px solid white;
+}
+
+.focusAreasBox .key-word {
+  background-color: #B78888;
+  color: white;
+  padding: 4px 8px;
+  white-space: break-word;
 }
 
 /*

@@ -65,6 +65,18 @@ function App({}: AppProps) {
       </div>
       <p className="category-title">Among many, I have worked with:</p>
       <p>{skills.map(item => <React.Fragment>{item}, </React.Fragment>)}</p>
+
+      <p>
+      <div className="focusAreasBox">
+      <div className="titleBox">When I work, I focus on:</div>
+        <ul>
+          <li><i className="fas fa-hand-point-right" style={{marginRight: 10}} /> the performance</li>
+          <li><i className="fas fa-hand-point-right" style={{marginRight: 10}} /> writing efficient and elegant code</li>
+          <li><i className="fas fa-hand-point-right" style={{marginRight: 10}} /> the relevance of implementation</li>
+          <li><i className="fas fa-hand-point-right" style={{marginRight: 10}} /> the result</li>
+        </ul>
+      </div>
+      </p>
     </div>
     <article className="one-half column">
       <h3 className="color-first">Leadership </h3>

@@ -1,6 +1,6 @@
 import React from '../web_modules/react-837e9c8767c0c5bb1a63ca951413ac6b.js';
 import K from './components/KeyWord/index-3d1b56997bc431e609bfefc849d4fd6a.js';
-import './styles.css.proxy-c51c082d41faae132cfbd7940aca4761.js';
+import './styles.css.proxy-16fa4cd2428b2a549414d38402448333.js';
 import { primary as skills, domains } from './data/skills-db8cc685b321b42325660076a0e01513.js';
 
 function App({}) {
@@ -69,7 +69,31 @@ function App({}) {
     className: "category-title"
   }, "Highlighted technology this year:"), " Snowpack, Es-modules, Docker, Kubernetes, Travis."), /*#__PURE__*/React.createElement("p", {
     className: "category-title"
-  }, "Among many, I have worked with:"), /*#__PURE__*/React.createElement("p", null, skills.map(item => /*#__PURE__*/React.createElement(React.Fragment, null, item, ", ")))), /*#__PURE__*/React.createElement("article", {
+  }, "Among many, I have worked with:"), /*#__PURE__*/React.createElement("p", null, skills.map(item => /*#__PURE__*/React.createElement(React.Fragment, null, item, ", "))), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("div", {
+    className: "focusAreasBox"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "titleBox"
+  }, "When I work, I focus on:"), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("i", {
+    className: "fas fa-hand-point-right",
+    style: {
+      marginRight: 10
+    }
+  }), " the performance"), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("i", {
+    className: "fas fa-hand-point-right",
+    style: {
+      marginRight: 10
+    }
+  }), " writing efficient and elegant code"), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("i", {
+    className: "fas fa-hand-point-right",
+    style: {
+      marginRight: 10
+    }
+  }), " the relevance of implementation"), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("i", {
+    className: "fas fa-hand-point-right",
+    style: {
+      marginRight: 10
+    }
+  }), " the result"))))), /*#__PURE__*/React.createElement("article", {
     className: "one-half column"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "color-first"

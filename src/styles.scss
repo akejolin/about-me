@@ -30,6 +30,7 @@ body {
   background-color: $color-light-pink;
   padding: .6em;
   margin: .6em .0em;
+  border-radius: .4rem;
 }
 .color-first {
   color: $color-first;
@@ -71,7 +72,7 @@ body {
   font-size: 1em;
   line-height: 1.8;
   font-weight: normal;
-  margin-bottom: 3rem; 
+  margin-bottom: 3rem;
   h5 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -121,20 +122,45 @@ nav.main {
   }
 }
 
-  .std-margins {
-    margin: 10% 50%;
-    min-width: 50%;
-  }
-  .quote-text {
-    font-size: 3em;
-  }
+.std-margins {
+  margin: 10% 50%;
+  min-width: 50%;
+}
+.quote-text {
+  font-size: 3em;
+}
 
-  section {
-    height: 80vh;
-    flex-grow: 0;
+section {
+  height: 80vh;
+  flex-grow: 0;
+}
+
+
+.focusAreasBox {
+  background-color: $color-first;
+  color: white;
+  padding: 16px;
+  border-radius: .4rem;
+
+  ul {
+    margin-top: 26px;
+    margin-bottom: 0px;
+    list-style: none;
+    li {
+      margin-left: 0px;
+      font-size: 2rem;
+    }
   }
-
-
+  .titleBox {
+    border-bottom: 1px solid white;
+  }
+  .key-word {
+    background-color: $color-pink;
+    color: white;
+    padding: 4px 8px;
+    white-space: break-word;
+  }
+}
 
 
 /*
